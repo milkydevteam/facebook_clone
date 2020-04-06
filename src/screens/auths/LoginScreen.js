@@ -1,11 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import LoginScreen from './src/screens/auths/LoginScreen';
 
-export default function App() {
+export default function LoginScreen() {
   return (
     <View style={styles.container}>
-      <LoginScreen />
+      <Text>Login Page!</Text>
     </View>
   );
 }
